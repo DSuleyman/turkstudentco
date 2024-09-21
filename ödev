@@ -1,1 +1,35 @@
-
+1=
+Başla
+    Yaz("Birinci sayıyı girin: ")
+    Sayı1 = Kullanıcıdan oku
+    Yaz("İkinci sayıyı girin: ")
+    Sayı2 = Kullanıcıdan oku
+    Toplam = Sayı1 + Sayı2
+    Yaz("Toplam: ", Toplam)
+Bitir
+2= 
+Başla 
+    Toplam = 0  
+    Dönüşte i = 1'den 100'e kadar
+        Toplam = Toplam + i
+    Yaz("toplam:", Toplam)
+Bitir
+3=
+Başla
+    Yaz("Bir sayı girin: ")
+    Sayı = Kullanıcıdan oku
+    Eğer Sayı <= 1 ise
+        Yaz("Sayı asal değildir.")
+        Bitir
+    Asal = Doğru
+    Dönüşte i = 2'den (Sayı'nın kareköküne kadar) kadar
+        Eğer Sayı mod i = 0 ise
+            Asal = Yanlış
+            Kır
+        Son
+    Son
+    Eğer Asal ise
+        Yaz("Sayı asal.")
+    Aksi halde
+        Yaz("Sayı asal değildir.")
+Bitir
